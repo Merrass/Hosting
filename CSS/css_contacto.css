@@ -1,0 +1,243 @@
+body {
+    background-image:url(../IMAGES/fondoprueba.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
+.formulario {
+    background: rgb(37, 32, 55);
+    width: 1300px;
+    margin: 65px auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+
+}
+
+.formulario .botones button {
+    width: 10%;
+    border: none;
+    padding: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: rgb(255, 255, 255);
+    color: rgb(255, 187, 0);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 0;
+    letter-spacing: 0.2px;
+    outline: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 5px;
+    
+}
+
+.formulario .botones button:hover {
+    background: rgb(37, 32, 55);
+    transform: scale(1.05);
+}
+
+legend {
+    color: rgb(255, 174, 0);
+    font-size: 30px;
+}
+
+.login-form h1 {
+    font-size: 30px;
+}
+
+.icono {
+    margin-left: 10%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    width: 70%;
+    float: right;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.521);
+}
+  
+.topnav a.active {
+    background-color: #ffb300;
+    color: white;
+}
+
+
+fieldset {
+    border-color: rgb(255, 179, 0);    
+}
+
+
+input {
+    background-color: rgb(37, 32, 55);
+    border-color:rgb(255, 179, 0);
+    border: 2px;
+    border-radius: 10px;
+    height: 30px;
+    color:#ffb300
+    
+}
+
+.naranja {
+    color: orange;
+}
+
+.imagentop {
+    margin-top:-5%
+}
+
+#imglogin1{
+    margin-top: 70px;
+
+}
+
+.textoinput {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.formularioderecha {
+    background: rgb(37, 32, 55);
+    width: 50%; 
+    border-radius: 4px;
+    float: left;
+    
+}
+
+.formularioizquierda {
+    background: rgb(37, 32, 55);
+    width: 50%; 
+    border-radius: 4px;
+    margin-left: 50%;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 0.5rem;
+  }
+
+.social-icons2 {
+    display: flex;
+    margin-top: 0.5rem;
+  }
+  
+  
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, orange, red);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+    
+}
+
+.social-icons2 a {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, orange, red);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+}
+  
+.social-icons a:hover {
+    transform: scale(1.05);
+}
+
+.social-icons2 a:hover {
+    transform: scale(1.05);
+}
+
+.centro {
+    text-align: center;
+}
+
+.centro2 {
+    margin-left: 0%;
+}
+
+footer {
+    background-color: #333;
+    width: 100%;
+}
+
+
+.div1 {
+    text-align: center;
+} 
+
+
+h4 {
+    color: rgb(255, 183, 0);
+    font-size: large;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+#parent {
+    height: 40px;
+    white-space: nowrap;
+    overflow: hidden; 
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+  }
+  
+  #border {
+    border-bottom: solid 3px rgba(0,255,0,.75);
+    position: absolute;
+    right: -7px;
+    width: 20px;
+  }
+  
+  /* Animation */
+  #parent {
+    animation: animated-text 1s steps(30,end) 1s 1 normal both
+  }
+  
+  #border {
+     animation: animated-cursor 600ms steps(30,end) infinite;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 240px;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-bottom-color: rgba(0,255,0,.75);}
+    to{border-bottom-color: transparent;}
+  }
